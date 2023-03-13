@@ -41,6 +41,14 @@
 .login:focus {
     background-color: darkgreen;
 }
+<<<<<<< HEAD
+=======
+.login:disabled, .login:hover:disabled {
+    background-color: rgba(0,0,0,.1);
+    border: 1px solid rgba(0, 0, 0, .1);
+    cursor: not-allowed;
+}
+>>>>>>> 856ce26c49a3f55e4b7626b5ed3b5916819a9997
 .checkbox{
     margin-bottom: 18px;
 }
